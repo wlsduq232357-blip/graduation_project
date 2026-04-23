@@ -10,7 +10,8 @@
 
 논문의 핵심 아이디어는 사람 자세 추정 방식의 키포인트 추출을 팔레트에 적용함. 팔레트 전면 E 구조에서 12개 키포인트를 검출하도록 설계함. 이 키포인트들 사이의 기하학적 관계를 이용해 팔레트의 기울기와 거리를 계산함.
 
-![image01.png](attachment:5c8abbdb-c6c6-4d78-b39f-f26b25c207b4:image01.png)
+<img width="416" height="624" alt="Image" src="https://github.com/user-attachments/assets/14533d2d-8494-4d43-8e18-09b36232d6a5" />
+
 
 데이터셋 : 원본 4,125 / 데이터 증강 후 12,112 장의 팔레트 이미지를 사용했고,
 
@@ -34,7 +35,7 @@ RANSAC은 노이즈와 많고 이상치가 섞여 있어도, 데이터 안에서
 
 목적: 바닥이나 벽 같은 불필요한 부분을 줄이고, 팔레트 표면을 더 잘 찾기 위함
 
-![image2.png](attachment:21a14178-5054-4d91-8b0a-39c5ee37d17d:image2.png)
+<img width="286" height="779" alt="Image" src="https://github.com/user-attachments/assets/d1d6842d-0cdc-4723-b320-f76843e4ef75" />
 
 - **Bounding boxes segmentation**
 2D에서 찾은 박스 영역에 해당하는 점군만 잘라냄
