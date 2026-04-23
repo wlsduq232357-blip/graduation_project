@@ -41,7 +41,7 @@
 
 | # | 논문 | 저자 / 연도 | 핵심 내용 |
 | --- | --- | --- | --- |
-| 0-1 | Pallet Detection and Localisation from Synthetic Data | Mueller et al., 2025 | YOLOv8-pose로 합성 데이터에서 팔레트 코너 검출 + PnP pose 추정. Unity 합성 데이터 7,140장 + Isaac Sim Domain Randomization 50,000장 |
+| 0- 1 | Pallet Detection and Localisation from Synthetic Data | Mueller et al., 2025 | YOLOv8-pose로 합성 데이터에서 팔레트 코너 검출 + PnP pose 추정. Unity 합성 데이터 7,140장 + Isaac Sim Domain Randomization 50,000장 |
 | 0-2 | Improving Pallet Detection Using Synthetic Data | Mueller et al., 2024 | Unity + NVIDIA Isaac Sim으로 합성 데이터 생성, YOLOv8 팔레트 검출 훈련 비교 |
 | 0-3 | 3D Shape Scanning with a Time-of-Flight Camera | Schuon et al., 2010 | ToF 카메라 다방향 스캔 → superresolution + 확률적 정합으로 3D 모델 구축 |
 | 0-4 | A Comprehensive Review of Vision-Based 3D Reconstruction Methods | Zhou et al., 2024 | ToF 기반 3D 복원 방법 전반 서베이 (Sensors) |
