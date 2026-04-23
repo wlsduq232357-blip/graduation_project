@@ -12,28 +12,28 @@
 └── RGB 다거리/다각도 촬영 → YOLOv8-pose 학습        
 ↓
 [Stage 1] 자율주행 (2D LiDAR SLAM + Nav2)      
-├── SLAM 지도 생성 (GMapping / Cartographer)      
-├── 전방 장애물 인식 및 회피 (DWA / TEB)     
-├── 목표 팔레트 선택    
-└── 목표 영역까지 주행     
-↓
-[Stage 2] Coarse Perception — RGB 기반 (원거리 ~3m)
-├── RGB 카메라 입력
-├── YOLOv8 기반 팔레트 / 포크홀 검출
-├── 코너 / 특징점 추출
-├── PnP 기반 Rough 6DoF Pose 추정
-└── 팔레트 전면 근처까지 접근
-↓
-[Stage 3] Fine Perception — ToF Point Cloud 기반 (근거리 ~0.5m)
-├── CS20 ToF → Point Cloud 획득
-├── FPFH 특징 계산
-├── SAC-IA → Point Cloud Coarse Registration
-└── 정밀 Pose 추정
-↓
-[Stage 4] Ultra-Fine Alignment + 삽입 — ICP 기반
-├── ICP 기반 Final Fine Alignment
-├── 포크 정렬 보정
-└── 포크홀 삽입
+├── SLAM 지도 생성 (GMapping / Cartographer)          
+├── 전방 장애물 인식 및 회피 (DWA / TEB)        
+├── 목표 팔레트 선택                    
+└── 목표 영역까지 주행                      
+↓                       
+[Stage 2] Coarse Perception — RGB 기반 (원거리 ~3m)                  
+├── RGB 카메라 입력                
+├── YOLOv8 기반 팔레트 / 포크홀 검출                
+├── 코너 / 특징점 추출                     
+├── PnP 기반 Rough 6DoF Pose 추정                        
+└── 팔레트 전면 근처까지 접근                        
+↓                       
+[Stage 3] Fine Perception — ToF Point Cloud 기반 (근거리 ~0.5m)                         
+├── CS20 ToF → Point Cloud 획득                    
+├── FPFH 특징 계산                      
+├── SAC-IA → Point Cloud Coarse Registration                   
+└── 정밀 Pose 추정                      
+↓                     
+[Stage 4] Ultra-Fine Alignment + 삽입 — ICP 기반                      
+├── ICP 기반 Final Fine Alignment                      
+├── 포크 정렬 보정                   
+└── 포크홀 삽입                            
 
 ---
 
