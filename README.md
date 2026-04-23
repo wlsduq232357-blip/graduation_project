@@ -7,9 +7,9 @@
 
 ## 전체 시스템 아키텍처
 
-[Stage 0] 데이터셋 준비
-├── ToF(CS20) 360° 스캔 → 레퍼런스 3D 모델
-└── RGB 다거리/다각도 촬영 → YOLOv8-pose 학습
+[Stage 0] 데이터셋 준비 
+├── ToF(CS20) 360° 스캔 → 레퍼런스 3D 모델  
+└── RGB 다거리/다각도 촬영 → YOLOv8-pose 학습   
 ↓
 [Stage 1] 자율주행 (2D LiDAR SLAM + Nav2)
 ├── SLAM 지도 생성 (GMapping / Cartographer)
